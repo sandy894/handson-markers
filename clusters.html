@@ -75,7 +75,15 @@
         var row = data[i];
           if(row.Latitude  && row.Longitude )  {
                var marker = L.marker([row.Latitude, row.Longitude]);
-                 marker.bindPopup(row.Title);
+            var marker = L.marker([row.Latitude, row.Longitude], {
+                      opacity: 1,
+                      // Customize your icon
+                       icon: L.icon({
+                        iconUrl: './sight-2.png',
+                        iconSize: [40, 60]
+                        })
+                }).bindPopup(row.Title);
+                 
                 markers.addLayer(marker); 
           }
     }
