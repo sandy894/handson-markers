@@ -7,12 +7,15 @@
 
   <!-- Load Leaflet code library - see updates at http://leafletjs.com/download.html -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
   <!-- Load jQuery and PapaParse to read data from a CSV file -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
-
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+https://unpkg.com/leaflet.markercluster@1.4.1/dist/
   <!-- Position the map with Cascading Style Sheet (CSS) -->
   <style>
     body { margin:0; padding:0; }
@@ -64,15 +67,17 @@
 
     // For each row in data, create a marker and add it to the map
     // For each row, columns `Latitude`, `Longitude`, and `Title` are required
+    
+    var markers = L.markerClusterGroup();
+    
     for (var i in data) {
-      var row = data[i];
-if(row.Latitude  && row.Longitude )  {
-      var marker = L.marker([row.Latitude, row.Longitude], {
-        opacity: 1
-      }).bindPopup(row.Title);
       
-      marker.addTo(map);
-    }}
+        var row = data[i];
+          if(row.Latitude  && row.Longitude )  {
+               var marker = L.marker([row.Latitude, row.Longitude]).bindPopup(row.Title);
+                markers.addLayer(marker); 
+          }
+   	map.addLayer(markers);
 
   });
   
