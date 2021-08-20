@@ -76,10 +76,10 @@
           if(row.Latitude  && row.Longitude )  {
                var marker = L.marker([row.Latitude, row.Longitude]).bindPopup(row.Title);
                 markers.addLayer(marker); 
-          }
+          }}
    	map.addLayer(markers);
 
-  });
+  
   
   map.attributionControl.setPrefix(
     'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a>'
