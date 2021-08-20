@@ -74,9 +74,11 @@
       
         var row = data[i];
           if(row.Latitude  && row.Longitude )  {
-               var marker = L.marker([row.Latitude, row.Longitude]).bindPopup(row.Title);
+               var marker = L.marker([row.Latitude, row.Longitude]);
+                 marker.bindPopup(row.Title);
                 markers.addLayer(marker); 
-          }}
+          }};
+    
    	map.addLayer(markers);
 
   
