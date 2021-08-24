@@ -1,8 +1,8 @@
 Title,Latitude,Longitude,Elevation,Area,Country,Period,Ref3,,,,,,Ref1,Ref2
-Aajar (tell),36.5,37.03333333,450m,Northern Levant,Syria,,Mellaart 1981, 7/8,,,,, Matthers 1978,Matthers 1981
+Aajar (tell),36.5,37.03333333,450m,Northern Levant,Syria,,Mellaart 1981, "7/8",,,,, Matthers 1978,Matthers 1981
 Abadah (tell),34.11666667,45.16666667,105m,Mesopotamian plain,Iraq, 7/8,,,,,,, Abboud 1983a, 7/8
 Abdul Hosein (tepe),34.18333333,48.16666667,1700m,Southern Zagros,Iran,,Pullar et al. 1986,3,,,,, Pullar 1979,Pullar 1981
-Abou Gosh,31.8,35.08333333,31°48'N  35°05'E,700m,Southern Levant,4,4,,,,,,Palestine, Mienis 1978
+Abou Gosh,31.8,35.08333333,31Â°48'N  35Â°05'E,700m,Southern Levant,4,4,,,,,,Palestine, Mienis 1978
 Abqaiq 7,0,0,,Arabian Coast of the Persian Gulf,Saudi Arabia, 8/9,,,,,,, , 8/9
 Abqaiq east C (23),0,0,,Arabian Coast of the Persian Gulf,Saudi Arabia, 8/9,,,,,,, Masry 1974, 8/9
 Abu Hureyra (Tell),35.83333333,38.36666667,250m,Middle Euphrate,Syria,"""3/4/5",Moore 1979,Moore 1981,Moore 1983,3,4,5, Moore 1975a,Moore 1975b
@@ -16,7 +16,7 @@ Ahmar south (tell),36.08333333,40.7,300m,Jezireh,Syria,5,6,,,,,, ,5
 Ain el-Kherkh,0,0,,Northern Levant,Syria, ,,,,,,, , 
 Ain et-Tell,36.21666667,37.18333333,450m,Northern Levant,Syria,, ,,,,,, Matthers 1978,Mellaart 1981
 Ain Ghazal,31.91666667,35.93333333,720m,Southern Levant,Jordan, ,,,,,,, , 
-Akarçay (Huyuk),36.91666667,38.01666667,335m,Middle Euphrate,Turkey,2,3,4,5,,,, ,2
+AkarÃ§ay (Huyuk),36.91666667,38.01666667,335m,Middle Euphrate,Turkey,2,3,4,5,,,, ,2
 Akhtareine (tell),36.5,37.33333333,400m,Northern Levant,Syria,6,,,,,,, Matthers 1981,6
 Alaca (Huyuk),40,35.01666667,1000m,Central Anatolia,Turkey, 11?,,,,,,, , 11?
 Ali (tel'),0,0,,Southern Levant,Israel, 4b,,,,,,, , 4b
@@ -70,13 +70,13 @@ Bawwab Al-Ghazal,0,0,,Southern Levant,Jordan,,,,,,,, , -
 Beidha,30.36666667,35.31666667,1300m,Southern Levant,Jordan,3,,,,,,, ,3
 Beisamoun,33.16666667,35.55,0m,Southern Levant,Israel,4,,,,,,, ,4
 Belaja Peschara,0,0,350m,Transcaucasia,Georgia, 8/9,,,,,,, , 8/9
-Berné (tell),35.98333333,37,25m,Northern Levant,Syria,7,,,,,,, ,7
+BernÃ© (tell),35.98333333,37,25m,Northern Levant,Syria,7,,,,,,, ,7
 Beset Nahal,0,0,,Southern Levant,Israel, ,,,,,,, , 
 Besik-Sivritepe,39.78333333,26.15,,Western Anatolia,Turkey, ,,,,,,, , 
 Beycesultan,38.25,29.76666667,700m,Central Anatolia,Turkey,10,,,,,,, ,10
 Beydar,0,0,,,Syria,11,,,,,,, ,11
 Birikin Magarasi,0,0,,,Turkey, 3/4,,,,,,, , 3/4
-Birimi (Huyuk),37.23333333,39.71666667,550m,Jezireh,Turkey,7,7,,,,,, Dönmez, Brice 1949
+Birimi (Huyuk),37.23333333,39.71666667,550m,Jezireh,Turkey,7,7,,,,,, DÃ¶nmez, Brice 1949
 Biris Mezarligi,37.36666667,38.36666667,600m,Middle Euphrate,Turkey, 1 ou 3/4,,,,,,, , 1 ou 3/4
 Boueid II,0,0,,Jezireh,Syria,,,,,,,, ,6
 Bouhaira (tell),0,0,,Northern Levant,Syria, 6/7,,,,,,, Matthers 1978, 6/7
@@ -91,20 +91,20 @@ Buhallan,0,0,,Mesopotamian plain,Iran, ,,,,,,, ,
 Buyuk (tepe),0,0,,,Turkey,11,,,,,,, ,11
 Byblos,34.11666667,35.65,0m,Northern Levant,Lebanon,6,7,,,,,, Renfrew et al. 1966,6
 Cafer (Huyuk),38.4,38.75,800m,High Valleys,Turkey,3,3 + 4,4,,,,, ,3
-Çalca,40.03333333,26.95,450m,Western Anatolia,Turkey, 4/5,,,,,,, , 4/5
+Ã‡alca,40.03333333,26.95,450m,Western Anatolia,Turkey, 4/5,,,,,,, , 4/5
 Can Hasan I,37.26666667,33.33333333,1200m,Central Anatolia,Turkey,10,6,7,,,,, ,10
 Can Hasan III,37.26666667,33.33333333,1200m,Central Anatolia,Turkey, 4/5,,,,,,, , 4/5
 Cano (tepe),38.46666667,38.36666667,720m,High Valleys,Turkey, 8/9,,,,,,, , 8/9
 Cap Andreas Kastros,0,0,,Cyprus,Cyprus,5,,,,,,, ,5
 Carchemish,36.83333333,38,370m,Middle Euphrate,Turkey, 3/4,,,,,,, , 3/4
-Çark-in (grotte),36.95,30.65,100m,Central Anatolia,Turkey, 8/9,,,,,,, , 8/9
-Çatal (Huyuk),37.66666667,32.83333333,1000m,Central Anatolia,Turkey,4,4 + 5,5,6,unstrat. ,,, ,4
-Çatal (Huyuk) (West),37.66666667,32.85,1000m,Central Anatolia,Turkey,7,,,,,,, ,7
-Çatalkaya,41.28333333,33.78333333,900m,Northern Anatolia,Turkey, 6/7,,,,,,, , 6/7
-Çavi Tarlasi,37.75,38.96666667,505m,Middle Euphrate,Turkey,7,,,,,,, ,7
-Çayboyu,38.86666667,38.96666667,800m,High Valleys,Turkey,7,,,,,,, ,7
-Çayiryolu tepe 2,0,0,,,Turkey,11,,,,,,, ,11
-Çayonu (tepesi),38.21666667,39.81666667,830m,High Valleys,Turkey,2,3,4,,,,, ,2
+Ã‡ark-in (grotte),36.95,30.65,100m,Central Anatolia,Turkey, 8/9,,,,,,, , 8/9
+Ã‡atal (Huyuk),37.66666667,32.83333333,1000m,Central Anatolia,Turkey,4,4 + 5,5,6,unstrat. ,,, ,4
+Ã‡atal (Huyuk) (West),37.66666667,32.85,1000m,Central Anatolia,Turkey,7,,,,,,, ,7
+Ã‡atalkaya,41.28333333,33.78333333,900m,Northern Anatolia,Turkey, 6/7,,,,,,, , 6/7
+Ã‡avi Tarlasi,37.75,38.96666667,505m,Middle Euphrate,Turkey,7,,,,,,, ,7
+Ã‡ayboyu,38.86666667,38.96666667,800m,High Valleys,Turkey,7,,,,,,, ,7
+Ã‡ayiryolu tepe 2,0,0,,,Turkey,11,,,,,,, ,11
+Ã‡ayonu (tepesi),38.21666667,39.81666667,830m,High Valleys,Turkey,2,3,4,,,,, ,2
 Chagar Bazar (tell),36.86666667,40.9,400m,Jezireh,Syria,6,7,8 ou 9,,,,, ,6
 Chahine (tell),36.3,39.01666667,300m,Jezireh,Syria, 8/9,,,,,,, , 8/9
 Chai (Gird),36.4,43.66666667,250m,Jezireh,Iraq,,2,,,,,, Braidwood, Howe 1960
@@ -117,8 +117,8 @@ Choga Sefid,32.61666667,47.25,230m,Southern Zagros,Iran,4,5,6,7,unstrat. ,,, ,4
 Cinaz I,38.71666667,39.9,980m,Eastern Anatolia,Turkey,7,,,,,,, ,7
 Cinaz III (Hoyuk),38.7,39.91666667,900m,Eastern Anatolia,Turkey, 3/4,,,,,,, , 3/4
 Cinis,0,0,,,Turkey,11,,,,,,, ,11
-Çoskun Tepe,39.48333333,26.08333333,,Western Anatolia,Turkey,6,,,,,,, ,6
-Çukurkent,37.88333333,31.53333333,,Central Anatolia,Turkey,6,,,,,,, Mellaart 1954,6
+Ã‡oskun Tepe,39.48333333,26.08333333,,Western Anatolia,Turkey,6,,,,,,, ,6
+Ã‡ukurkent,37.88333333,31.53333333,,Central Anatolia,Turkey,6,,,,,,, Mellaart 1954,6
 Cyclope (cave of),0,0,,Aegean Area,Greece,0,,,,,,, ,0
 Daim (ed-) (Tell),0,0,,Northern Zagros,Iraq,6,,,,,,, ,6
 Dalma (tepe),36.96666667,45.4,1400m,Northern Zagros,Israel, ,,,,,,, Young 1962, 
@@ -134,9 +134,9 @@ Derak (Khirbet),0,0,,Jezireh,Iraq, ,,,,,,, ,
 Dhahab (tell),36.25,36.55,152m,Northern Levant,Turkey,5,,,,,,, ,5
 Dharan (site 11),0,0,,Arabian Coast of the Persian Gulf,Saudi Arabia, ,,,,,,, , 
 Dhour Ech-Chouer,33.78333333,35.8,0m,Northern Levant,Lebanon,0,,,,,,, ,0
-Diyarbakir (citadelle),37.9,40.25,700m,High Valleys,Turkey,,7,,,,,, Dönmez, Brice 1949
+Diyarbakir (citadelle),37.9,40.25,700m,High Valleys,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Diyarbakir (sites),37.9,40.25,,High Valleys,Turkey, 3/4,,,,,,, , 3/4
-Dja’de,0,0,,Middle Euphrate,Syria,3,3 or 6,5 ou 6,unstrat. ,,,, pernicka et al. 1997b,3
+DjaÂ’de,0,0,,Middle Euphrate,Syria,3,3 or 6,5 ou 6,unstrat. ,,,, pernicka et al. 1997b,3
 Domali,41.18333333,29.43333333,,Western Anatolia,Turkey, 4/5?,,,,,,, , 4/5?
 Domuztepe,36.65,35.46666667,20m,Central Anatolia,Turkey,7,,,,,,, ,7
 Dosariyah,0,0,,Arabian Coast of the Persian Gulf,Saudi Arabia,7,,,,,,, Masry 1974,7
@@ -155,10 +155,10 @@ Farukhabad (tepe),0,0,,Northern Zagros,Iran,10,,,,,,, ,10
 Feyda (tell),0,0,,Jezireh,Syria, 4?,,,,,,, , 4?
 Fikirtepe,40.96666667,29.06666667,26m,Northern Anatolia,Turkey,6,,,,,,, ,6
 Fistikli (Hoyuk),0,0,,Middle Euphrate,Turkey,7,,,,,,, ,7
-Gandzha Chai (stojanka n°133,0,0,,Transcaucasia,Azerbaijan, -,,,,,,, , -
+Gandzha Chai (stojanka nÂ°133,0,0,,Transcaucasia,Azerbaijan, -,,,,,,, , -
 Gargalar (tepesi),0,0,,Transcaucasia,Azerbaijan, -,,,,,,, , -
 Gawra (tepe),36.46666667,43.26666667,400m,Jezireh,Iraq, 10/11,6,7,,,,, , 10/11
-Gaziantep (citadelle),37.06666667,37.38333333,900m,Northern Levant,Turkey,,7,,,,,, Dönmez, Brice 1949
+Gaziantep (citadelle),37.06666667,37.38333333,900m,Northern Levant,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Gedik Pasa,0,0,,,Turkey,,,,,,,, , unstrat. 
 Gelveri,0,0,,,Turkey,,,,,,,, , unstrat. 
 Genil,0,0,,Southern Zagros,Iran,3,,,,,,, ,3
@@ -188,13 +188,13 @@ Hacinebi (tepe),37.05,37.98333333,385m,Northern Levant,Turkey,11,,,,,,, ,11
 Hagoshrim,33.18333333,35.63333333,100m,Southern Levant,Israel, 5+6+7+8+9,,,,,,, perrot J. 1968, 5+6+7+8+9
 Hajji Firuz,36.96666667,45.46666667,1300m,Northern Zagros,Iran,6,,,,,,, Young 1962,6
 Halaf  (tell),36.81666667,40.05,450m,Jezireh,Syria,5,6,7,,,,, Davidson 1977,5
-Hallan Çemi (tepesi),38.23333333,41.25,640m,High Valleys,Turkey, 1/2,,,,,,, , 1/2
+Hallan Ã‡emi (tepesi),38.23333333,41.25,640m,High Valleys,Turkey, 1/2,,,,,,, , 1/2
 Halula,0,0,,Middle Euphrate,Syria,3,4,5,5 ou 6,6,7,, pernicka et al. 1997b,3
 Hama,35.13333333,36.75,250m,Northern Levant,Syria,6,,,,,,, ,6
 Hammam (tell),36.61666667,38.98333333,380m,Jezireh,Syria, 11?,3-Apr,,,,,, , 11?
 Hammam (Wadi el-) (Grotte),36.25,36.56666667,200m,Northern Levant,Turkey,5,,,,,,, ,5
 Hanvaki Eski II,37.56666667,31.85,1000m,Central Anatolia,Turkey,6,,,,,,, ,6
-Harbi Kosa (tell),37.01666667,38.9,900m,Jezireh,Turkey,,7,,,,,, Dönmez, Brice 1949
+Harbi Kosa (tell),37.01666667,38.9,900m,Jezireh,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Hasanlu,0,0,,,Iran, ?,,,,,,, , ?
 Hash Bai (tell),0,0,,Northern Levant,Lebanon, ,,,,,,, , 
 Hashomer (Eyn),33.21666667,35.58333333,200m,Southern Levant,Israel, 6/7,,,,,,, , 6/7
@@ -203,7 +203,7 @@ Hassek (Hoyuk),37.83333333,38.95,385m,Middle Euphrate,Turkey, 10/11,,,,,,, , 10/
 Hassuna (tell),36.03333333,43.21666667,250m,Jezireh,Iraq,5,6,,,,,, ,5
 Hayaz (Huyuk),37.48333333,38.33333333,450m,Middle Euphrate,Turkey,4,,,,,,, ,4
 Helu (tell),0,0,,Middle Euphrate,Syria, 8/9,,,,,,, , 8/9
-Hoçaçesme,0,0,,,Turkey, -,,,,,,, , -
+HoÃ§aÃ§esme,0,0,,,Turkey, -,,,,,,, , -
 Hoch Rafqa (tell),0,0,,Northern Levant,Lebanon, 8/9,,,,,,, , 8/9
 Horvat Galil,32.95,35.31666667,430m,Southern Levant,Israel,3,,,,,,, ,3
 Igdeli (Cesme),38.55,43.45,1250m,Cyprus,Cyprus,5,,,,,,, ,5
@@ -215,7 +215,7 @@ Ivikler tepesi,0,0,,,Turkey,11,,,,,,, ,11
 Jaadiyeh (tell),0,0,,Northern Levant,Syria, ,,,,,,, , 
 Jaffarabad,32.2,48.21666667,,,Iran, ,,,,,,, , 
 Jarba (Ein el-),32.65,35.13333333,250m,Southern Levant,Israel, ,,,,,,, , 
-Jarmo (Qala’at),35.53333333,44.93333333,1000m,Northern Zagros,Iraq,,4,4 ou 5,4b/5a,5,,, Braidwood, Howe 1960
+Jarmo (QalaÂ’at),35.53333333,44.93333333,1000m,Northern Zagros,Iraq,,4,4 ou 5,4b/5a,5,,, Braidwood, Howe 1960
 Jerf el Ahmar,0,0,,Middle Euphrate,Syria,2,,,,,,, pernicka et al. 1997b,2
 Jericho,31.85,35.43333333,0m,Southern Levant,Palestine,2,3,,,,,, Strouhale 1973,2
 Jilat 13 (Wadi el-),0,0,,Southern Levant,Jordan,5,,,,,,, ,5
@@ -272,7 +272,7 @@ Kurban (Huyuk),37.48333333,38.41666667,418m,Middle Euphrate,Turkey,7,,,,,,, ,7
 Kurdu (tell ),36.33333333,36.4,84m,Northern Levant,Turkey,7,7-Aug,,,,,, ,7
 Kurupinar ,38.8,38.95,1000m,High Valleys,Turkey, ,,,,,,, , 
 Kushali (tepe),0,0,,Northern Zagros,Iran, ,,,,,,, , 
-Kuzler (tepe),37.18333333,38.75,800m,Jezireh,Turkey,,7,,,,,, Dönmez, Brice 1949
+Kuzler (tepe),37.18333333,38.75,800m,Jezireh,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Kvirike ,0,0,,Transcaucasia,Georgia,3,,,,,,, ,3
 Laboueh (tell) (sud),34.18333333,36.31666667,900m,Northern Levant,Lebanon, 4/5,,,,,,, , 4/5
 Larsa,0,0,,,Iraq, ,,,,,,, , 
@@ -305,9 +305,9 @@ Mulla Matar ,0,0,,Jezireh,Syria,11,,,,,,, pernicka et al. 1997b,11
 Munhata ,32.61666667,35.53333333,0m,Southern Levant,Israel,3,6,7,,,,, ,3
 Mureybet (tell),36.01666667,38.11666667,300m,Middle Euphrate,Syria,,2,3,unstrat. ,,,, Cauvin 1974a,pernicka et al. 1997b
 Mushki (Tall i-),29.76666667,52.58333333,1800m,Southern Zagros,Iran,6,,,,,,, ,6
-Musluçesme,40.16666667,28.06666667,50m,Central Anatolia,Turkey, 4b,,,,,,, , 4b
+MusluÃ§esme,40.16666667,28.06666667,50m,Central Anatolia,Turkey, 4b,,,,,,, , 4b
 Musular ,38.33333333,34.21666667,1120m,Central Anatolia,Turkey, 4a,,,,,,, , 4a
-M’lefaat (tell),36.31666667,43.51666667,400m,Jezireh,Iraq,2,,,,,,, ,2
+MÂ’lefaat (tell),36.31666667,43.51666667,400m,Jezireh,Iraq,2,,,,,,, ,2
 Nachcharini ,34.08333333,36.45,2200m,Northern Levant,Lebanon,2,,,,,,, ,2
 Nahariyah ,0,0,,Northern Levant,Lebanon, 8/9,,,,,,, , 8/9
 Natsar Gora ,0,0,,Transcaucasia,Georgia, 8/9,,,,,,, , 8/9
@@ -321,7 +321,7 @@ Nemrik 9,36.71666667,42.88333333,0m,Jezireh,Iraq,3,,,,,,, Mazurowski 1992,3
 Nenezi ,38.36666667,34.45,1650m,Central Anatolia,Turkey, 3/4,5,,,,,, , 3/4
 Netiv Hagdud ,0,0,,Southern Levant,Palestine,2,,,,,,, ,2
 Nevala denik ,38.21666667,41.1,600m,High Valleys,Turkey, 3/4,,,,,,, , 3/4
-Nevalli Çori ,37.58333333,38.65,490m,Middle Euphrate,Turkey,3,7,,,,,, ,3
+Nevalli Ã‡ori ,37.58333333,38.65,490m,Middle Euphrate,Turkey,3,7,,,,,, ,3
 Nineveh ,36.35,43.16666667,400m,Jezireh,Iraq,6,,,,,,, ,6
 Norsun (tepe),38.55,39.36666667,800m,Eastern Anatolia,Turkey, ,,,,,,, , 
 Odishi ,0,0,,Transcaucasia,Georgia,,,,,,,, , -
@@ -336,10 +336,10 @@ Pendik ,40.86666667,29.25,5m,Western Anatolia,Turkey, 6/7,,,,,,, , 6/7
 Pinarba?i-Bor ,37.91666667,34.5,1100m,Central Anatolia,Turkey, 4/5,,,,,,, , 4/5
 Pisdeli (Tepe),36.91666667,45.41666667,1300m,Northern Zagros,Iran, ,,,,,,, , 
 Pulur (Erzurum),0,0,,,Turkey,11,,,,,,, ,11
-Qala’at el Mudiq ,34.4,36.38333333,200m,Northern Levant,Syria,5,,,,,,, ,5
+QalaÂ’at el Mudiq ,34.4,36.38333333,200m,Northern Levant,Syria,5,,,,,,, ,5
 Qale Rostam ,31.45,51.15,1600m,Southern Zagros,Iran, 5?,,,,,,, , 5?
 Qalinj Agha ,36.16666667,44.01666667,400m,Jezireh,Iraq, ,,,,,,, , 
-Qal’e Geli ,0,0,,,Iran, 3/4,,,,,,, , 3/4
+QalÂ’e Geli ,0,0,,,Iran, 3/4,,,,,,, , 3/4
 Qamarian ,0,0,,,Iraq,6,,,,,,, ,6
 Qara Chiwar (Kharaba),35.16666667,44.85,400m,Northern Zagros,Iraq,,2,,,,,, Braidwood, Howe 1960
 Qaramel (tell),36.36666667,37.28333333,500m,Northern Levant,Syria,2,,,,,,, ,2
@@ -352,12 +352,12 @@ Ramad (tell),33.4,36.1,800m,Central Levant,Syria,4,4-May,,,,,, Renfrew et al. 19
 Ras al-Amiya ,32.55,44.63333333,20m,Mesopotamian plain,Iraq, 7/8,,,,,,, , 7/8
 Ras Shamra,35.6,35.8,10m,Northern Levant,Syria,4,5,6,7,unstrat. ,,, Renfrew et al. 1966,4
 Rashid (tulul),0,0,,,Iraq, 7/8,,,,,,, , 7/8
-Resulyan ,37.28333333,38.81666667,875m,Jezireh,Turkey,,7,,,,,, Dönmez, Brice 1949
+Resulyan ,37.28333333,38.81666667,875m,Jezireh,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Rihan III (tell),34.38333333,44.78333333,100m,Mesopotamian plain,Iraq,4,,,,,,, ,4
 Rubeideh (tell),35.06666667,44.05,,Mesopotamian plain,Iraq, 10/11,,,,,,, , 10/11
 Rus (tepesi),0,0,,Transcaucasia,Azerbaijan, -,,,,,,, , -
 Saadiya (tell el-),34.16666667,45.13333333,150m,Mesopotamian plain,Iraq, 8/9,,,,,,, , 8/9
-Saaidé I ,34.05,36.05,1025m,Northern Levant,Lebanon, 3/4,,,,,,, , 3/4
+SaaidÃ© I ,34.05,36.05,1025m,Northern Levant,Lebanon, 3/4,,,,,,, , 3/4
 Sabi Abyad I ,36.51666667,39.1,380m,Jezireh,Syria,6,7,,,,,, ,6
 Sabi Abyad II ,36.51666667,39.1,380m,Jezireh,Syria,4,,,,,,, ,4
 Sabi Abyad III ,36.51666667,39.1,380m,Jezireh,Syria, 3/4,,,,,,, , 3/4
@@ -380,7 +380,7 @@ Seh Gabi B ,34.58333333,48.86666667,1400m,Southern Zagros,Iran, ,,,,,,, ,
 Seker al-Aheimar ,0,0,,Jezireh,Syria, 4/5,,,,,,, , 4/5
 Shamseddine-Tannira (tell),0,0,,,Syria,7,,,,,,, ,7
 Shamsine (tell),0,0,,Northern Levant,Lebanon, ,,,,,,, , 
-Shanidar (Ishkaft),36.8,44.28333333,822m,Northern Zagros,Iraq, 1?,Paléo.sup,,,,,, Renfrew et al. 1966, 1?
+Shanidar (Ishkaft),36.8,44.28333333,822m,Northern Zagros,Iraq, 1?,PalÃ©o.sup,,,,,, Renfrew et al. 1966, 1?
 Shatanabad (tepe),0,0,,Northern Zagros,Iran, ,,,,,,, , 
 Shillourokambos,0,0,0m,Cyprus,Cyprus, 3/4,,,,,,, , 3/4
 Shimshara (tell),36.2,44.95,500m,Northern Zagros,Iraq, 4b,5,6,unstrat. ,,,, Renfrew et al. 1966, 4b
@@ -390,7 +390,7 @@ Shunera IV,30.95,34.6,300m,Southern Levant,Israel, ,,,,,,, ,
 Shunera X,30.95,34.6,300m,Southern Levant,Israel,2,,,,,,, ,2
 Sianou (tell),0,0,,Northern Levant,Israel,11,,,,,,, ,11
 Sinn (es-) (Tell),35.3,40.25,300m,Jezireh,Syria, 4a,,,,,,, , 4a
-Sirçan (tepe),38.33333333,34.2,1200m,Central Anatolia,Turkey,4,,,,,,, ,4
+SirÃ§an (tepe),38.33333333,34.2,1200m,Central Anatolia,Turkey,4,,,,,,, ,4
 Sogut Tarlasi,37.33333333,38.5,700m,Northern Levant,Turkey, 1 or 3/4,,,,,,, , 1 or 3/4
 Sohz (tepe),0,0,,Southern Zagros,Iran, 8?,,,,,,, , 8?
 Sos (Huyuk),0,0,,Eastern Anatolia,Turkey, ,,,,,,, , 
@@ -405,11 +405,11 @@ Tabbat al-Hamma,34.83333333,35.93333333,15m,Northern Levant,Syria,5,,,,,,, Renfr
 Tabia (tepe),0,0,,Northern Zagros,Iran, ,,,,,,, , 
 Tamar (tepe),0,0,,Northern Zagros,Iran,6,,,,,,, ,6
 Tamerkhan,33.75,45.53333333,150m,Mesopotamian plain,Iraq,4,,,,,,, Oates et Oates 1976,4
-Tannour I-III (Qala’at),33.91666667,36.16666667,1200m,Northern Levant,Lebanon, 3/4,,,,,,, perrot J. 1968, 3/4
+Tannour I-III (QalaÂ’at),33.91666667,36.16666667,1200m,Northern Levant,Lebanon, 3/4,,,,,,, perrot J. 1968, 3/4
 Tarsus,36.91666667,34.91666667,70m,Central Anatolia,Turkey,11,7-Aug,,,,,, Goldman 1938,11
 Tekhut,0,0,,Transcaucasia,Armenia, ,,,,,,, , 
 Teleilat (Huyuk),0,0,,Middle Euphrate,Turkey, ,,,,,,, , 
-Tepeci-Çiftlik ,38.16666667,34.51666667,1500m,Central Anatolia,Turkey,5,,,,,,, ,5
+Tepeci-Ã‡iftlik ,38.16666667,34.51666667,1500m,Central Anatolia,Turkey,5,,,,,,, ,5
 Tepecik,38.65,39.45,750m,Eastern Anatolia,Turkey,10,6,,,,,, ,10
 Tepecik Koy I,0,0,,,Turkey,11,,,,,,, ,11
 Tepecik koy II,0,0,,,Turkey,11,,,,,,, ,11
@@ -425,7 +425,7 @@ Tsopi ,0,0,,Transcaucasia,Georgia, ,,,,,,, ,
 Tulin (tepe),38.63333333,39.41666667,830m,Eastern Anatolia,Turkey,10,,,,,,, ,10
 Tumbaq (wadi),0,0,,,Syria,4,,,,,,, ,4
 Ubaid (tell al-),30.95,46,10m,Mesopotamian plain,Iraq, 8/9,,,,,,, , 8/9
-Umer (tepe),37.03333333,38.86666667,830m,Middle Euphrate,Turkey,,7,,,,,, Dönmez, Brice 1949
+Umer (tepe),37.03333333,38.86666667,830m,Middle Euphrate,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Umm Dabaghiyah I (tell),35.6,42.4,220m,Jezireh,Iraq,5,,,,,,, ,5
 Umm el-tlel 2,0,0,,Northern Levant,Syria,5,,,,,,, ,5
 Umm Qseir ,0,0,,Jezireh,Syria,7,,,,,,, ,7
@@ -453,5 +453,5 @@ Zarzi (grotte ),35.81666667,45.01666667,1000m,Northern Zagros,Iraq,0,,,,,,, Garr
 Zawi Chemi ,36.78333333,44.28333333,425m,Northern Zagros,Iraq, ,,,,,,, Ferembach 1970b, 
 Zehora (nahal),0,0,,Southern Levant,Israel, 6?,,,,,,, , 6?
 Zeidan (tell),0,0,,Jezireh,Syria, 7/8,,,,,,, Albright 1926, 7/8
-Zibini (Huyuk),37.3,39.65,,Jezireh,Turkey,,7,,,,,, Dönmez, Brice 1949
+Zibini (Huyuk),37.3,39.65,,Jezireh,Turkey,,7,,,,,, DÃ¶nmez, Brice 1949
 Zurtaket ,,,,Transcaucasia,Georgia, 1/2,,,,,,, , 1/2
