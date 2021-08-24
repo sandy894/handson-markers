@@ -44,12 +44,7 @@
 
     // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
-
-    // For each row in data, create a marker and add it to the map
-    // For each row, columns `Latitude`, `Longitude`, and `Title` are required
-    
-
-    
+      
     for (var i in data) {
       var row = data[i];
       if(row.Latitude  && row.Longitude )  {
@@ -69,7 +64,7 @@
 		}
     
 	  }
-    } ); 
+   
 	    
 	    
     var group1 = L.layerGroup(markers1);
@@ -131,7 +126,7 @@
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
   }); // EDIT - insert or remove ".addTo(map)" before last semicolon to display by default
   controlLayers.addBaseLayer(terrain, 'Stamen Terrain basemap');
-
+  } );
   </script>
 </body>
 </html>
