@@ -28,13 +28,7 @@
   <!-- Insert Javascript (.js) code to create the map -->
   <script>
 
-  // Set up initial map center and zoom level
-  var map = L.map('map', {
-    center: [35, 45], // EDIT latitude, longitude to re-center map
-    zoom: 5,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
-    scrollWheelZoom: true,
-    tap: true
-  });
+
 
   /* Control panel to display map layers */
   var controlLayers = L.control.layers( null, null, {
@@ -64,18 +58,55 @@
 
     // For each row in data, create a marker and add it to the map
     // For each row, columns `Latitude`, `Longitude`, and `Title` are required
+    
+    var markers1=[];
+    var markers2=[];
+    var markers3=[];
+    var markers4=[];
+    var markers5=[];
+    var markers6=[];
+    var markers7=[];
+    var markers8=[];
+    var markers9=[];
+    var markers10=[];
+    var markers11=[];
+    var markersundef=[];
+    
     for (var i in data) {
       var row = data[i];
-if(row.Latitude  && row.Longitude )  {
-      var marker = L.marker([row.Latitude, row.Longitude], {
+      if(row.Latitude  && row.Longitude )  {
+      if (row.Period.includes("1")) {
+	      markers1.push(L.marker([row.Latitude, row.Longitude], { 
         opacity: 1
-      }).bindPopup(row.Title + ':' + row.Area + ':' + row.Period);
-      
-      marker.addTo(map);
-    }}
+           }).bindPopup(row.Title + ':' + row.Area + ':' + row.Period);)
+           }
+        
+        
 
+      
+      
+    }}
+var group1 = L.layerGroup(markers1);
+    var group2 = L.layerGroup(markers2);
+    var group3 = L.layerGroup(markers3);
+    var group4 = L.layerGroup(markers4);
+    var group5 = L.layerGroup(markers5);
+    var group6 = L.layerGroup(markers6);
+    var group7 = L.layerGroup(markers7);
+    var group8 = L.layerGroup(markers8);
+    var group9 = L.layerGroup(markers9);
+    var group10 = L.layerGroup(markers10);
+    var group11 = L.layerGroup(markers11);
+    var groupundef = L.layerGroup(markersundef);
   });
-  
+    // Set up initial map center and zoom level
+  var map = L.map('map', {
+    center: [35, 45], // EDIT latitude, longitude to re-center map
+    zoom: 5,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: true,
+    tap: true
+    
+  });
   map.attributionControl.setPrefix(
     'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a>'
   );
