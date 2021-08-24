@@ -27,16 +27,6 @@
 
   <!-- Insert Javascript (.js) code to create the map -->
   <script>
-
-  // Read markers data from data.csv
-  $.get('./archFile.csv', function(csvString) {
-
-    // Use PapaParse to convert string to array of objects
-    var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
-
-    // For each row in data, create a marker and add it to the map
-    // For each row, columns `Latitude`, `Longitude`, and `Title` are required
-    
     var markers1=[];
     var markers2=[];
     var markers3=[];
@@ -49,6 +39,16 @@
     var markers10=[];
     var markers11=[];
     var markersundef=[];
+  // Read markers data from data.csv
+  $.get('./archFile.csv', function(csvString) {
+
+    // Use PapaParse to convert string to array of objects
+    var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
+
+    // For each row in data, create a marker and add it to the map
+    // For each row, columns `Latitude`, `Longitude`, and `Title` are required
+    
+
     
     for (var i in data) {
       var row = data[i];
@@ -67,8 +67,11 @@
         if (row.Period.includes("10")) {markers10.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
         if (row.Period.includes("11")) {markers11.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
 		}
-    }
-	  });    
+    
+	  }
+    }  
+	    
+	    
     var group1 = L.layerGroup(markers1);
     var group2 = L.layerGroup(markers2);
     var group3 = L.layerGroup(markers3);
@@ -105,7 +108,7 @@
     zoom: 5,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: true,
     tap: true
-    
+  });
 
   map.attributionControl.setPrefix(
     'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a>'
