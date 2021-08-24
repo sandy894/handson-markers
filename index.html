@@ -83,7 +83,22 @@
     var group10 = L.layerGroup(markers10);
     var group11 = L.layerGroup(markers11);
     var groupundef = L.layerGroup(markersundef);
-  
+    
+	    
+    var overlaymaps = {
+    "1" : group1 ,
+    "2" :group2, 
+   "3" :group3, 
+    "4" :group4, 
+    "5" :group5,
+    "6" :group6, 
+    "7" :group7, 
+    "8" : group8,
+    "9" : group9, 
+    "10" : group10, 
+    "11" : group11, 
+    "undefined" : groupundef
+    };
     // Set up initial map center and zoom level
   var map = L.map('map', {
     center: [35, 45], // EDIT latitude, longitude to re-center map
@@ -97,7 +112,7 @@
   );
 	  
   /* Control panel to display map layers */
-  var controlLayers = L.control.layers( null, null, {
+  var controlLayers = L.control.layers( null, overlaymaps, {
     position: "topright",
     collapsed: false
   }).addTo(map);
