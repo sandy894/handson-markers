@@ -68,7 +68,7 @@
         if (row.Period.includes("11")) {markers11.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
 		}
     }
-	    
+	  });    
     var group1 = L.layerGroup(markers1);
     var group2 = L.layerGroup(markers2);
     var group3 = L.layerGroup(markers3);
@@ -98,7 +98,7 @@
     "undefined" : groupundef
     };
 	
-  });
+
     // Set up initial map center and zoom level
   var map = L.map('map', {
     center: [35, 45], // EDIT latitude, longitude to re-center map
