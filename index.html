@@ -48,7 +48,7 @@
     for (var i in data) {
       var row = data[i];
       if(row.Latitude  && row.Longitude )  {
-	if (row.Period !== null || row.Period !== '' || row.Period.length == 0) {markersundef.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ': undefined'));
+	if (row.Period == null || row.Period == '' || row.Period.length == 0) {markersundef.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ': undefined'));
 		} else {
       	if (row.Period.includes("1")) {markers1.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}	
 	if (row.Period.includes("2")) {markers2.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
