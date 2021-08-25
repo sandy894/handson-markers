@@ -50,17 +50,17 @@
       if(row.Latitude  && row.Longitude )  {
 	if (row.Period == null || row.Period == '' || row.Period.length == 0) {markersundef.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ': undefined'));
 		} else {
-      	if (row.Period == 1) {markers1.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}	
-	if (row.Period == 2) {markers2.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-        if (row.Period== 3) {markers3.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-        if (row.Period == 4) {markers4.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-	if (row.Period == 5) {markers5.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			
-	if (row.Period == 6) {markers6.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}		
-	if (row.Period == 7) {markers7.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			     
-	if (row.Period == 8) {markers8.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			     
-        if (row.Period == 9) {markers9.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}   
-        if (row.Period == 10) {markers10.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-        if (row.Period == 11) {markers11.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
+      	if (row.Period == 1) {markers1.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}	
+	if (row.Period == 2) {markers2.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
+        if (row.Period== 3) {markers3.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
+        if (row.Period == 4) {markers4.push(L.marker([row.Latitude, row.Longitude],{opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
+	if (row.Period == 5) {markers5.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			
+	if (row.Period == 6) {markers6.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}		
+	if (row.Period == 7) {markers7.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			     
+	if (row.Period == 8) {markers8.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			     
+        if (row.Period == 9) {markers9.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}   
+        if (row.Period == 10) {markers10.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
+        if (row.Period == 11) {markers11.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
 		}
     
 	  }
