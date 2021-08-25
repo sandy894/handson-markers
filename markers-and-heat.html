@@ -7,11 +7,14 @@
 
   <!-- Load Leaflet code library - see updates at http://leafletjs.com/download.html -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+	   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
   <!-- Load jQuery and PapaParse to read data from a CSV file -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+	  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 
   <!-- Position the map with Cascading Style Sheet (CSS) -->
   <style>
@@ -39,6 +42,7 @@
     var markers10=[];
     var markers11=[];
     var markersundef=[];
+    var markersHeat = L.markerClusterGroup();
   // Read markers data from data.csv
   $.get('./archFile.csv', function(csvString) {
 
@@ -50,7 +54,7 @@
       if(row.Latitude  && row.Longitude )  {
 	if (row.Period == null || row.Period == '' || row.Period.length == 0) {markersundef.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ': undefined'));
 		} else {
-      	if (row.Period == 1) {markers1.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}	
+      	if (row.Period == 1) {markers1.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period)); }	
 	if (row.Period == 2) {markers2.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
         if (row.Period== 3) {markers3.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
         if (row.Period == 4) {markers4.push(L.marker([row.Latitude, row.Longitude],{opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
@@ -61,12 +65,25 @@
         if (row.Period == 9) {markers9.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}   
         if (row.Period == 10) {markers10.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
         if (row.Period == 11) {markers11.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
+		
 		}
     
 	  }
    
     }   
-	    
+    markersHeat.addLayer(markers1); 
+	  markersHeat.addLayer(markers2);
+	  markersHeat.addLayer(markers3);
+	  markersHeat.addLayer(markers4);
+	  markersHeat.addLayer(markers5);
+	  markersHeat.addLayer(markers6);
+	  markersHeat.addLayer(markers7);
+	  markersHeat.addLayer(markers8);
+	  markersHeat.addLayer(markers9);
+	  markersHeat.addLayer(markers10);
+	  markersHeat.addLayer(markers11);
+	  markersHeat.addLayer(markersundef);
+	  
     var group1 = L.layerGroup(markers1);
     var group2 = L.layerGroup(markers2);
     var group3 = L.layerGroup(markers3);
@@ -84,7 +101,7 @@
     var overlaymaps = {
     "1" : group1 ,
     "2" :group2, 
-   "3" :group3, 
+    "3" :group3, 
     "4" :group4,
     "5" :group5,
     "6" :group6, 
@@ -104,7 +121,7 @@
     scrollWheelZoom: true,
     tap: true
   });
-
+  map.addLayer(markersHeat);
   map.attributionControl.setPrefix(
     'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a> | Archaeological sites from <a href="https://www.mom.fr/obsidienne/siteArcheologique.php">Database on Prehistoric Near East Obsidian </a>.'
   );
