@@ -42,7 +42,7 @@
     var markers10=[];
     var markers11=[];
     var markersundef=[];
-    var markersHeat = L.markerClusterGroup();
+  
   // Read markers data from data.csv
   $.get('./archFile.csv', function(csvString) {
 
@@ -71,18 +71,8 @@
 	  }
    
     }   
-    markersHeat.addLayer(markers1); 
-	  markersHeat.addLayer(markers2);
-	  markersHeat.addLayer(markers3);
-	  markersHeat.addLayer(markers4);
-	  markersHeat.addLayer(markers5);
-	  markersHeat.addLayer(markers6);
-	  markersHeat.addLayer(markers7);
-	  markersHeat.addLayer(markers8);
-	  markersHeat.addLayer(markers9);
-	  markersHeat.addLayer(markers10);
-	  markersHeat.addLayer(markers11);
-	  markersHeat.addLayer(markersundef);
+	  
+
 	  
     var group1 = L.layerGroup(markers1);
     var group2 = L.layerGroup(markers2);
@@ -121,7 +111,22 @@
     scrollWheelZoom: true,
     tap: true
   });
-  map.addLayer(markersHeat);
+	  var markersHeat = L.markerClusterGroup();
+    	  markersHeat.addLayer(markers1); 
+	  markersHeat.addLayer(markers2);
+	  markersHeat.addLayer(markers3);
+	  markersHeat.addLayer(markers4);
+	  markersHeat.addLayer(markers5);
+	  markersHeat.addLayer(markers6);
+	  markersHeat.addLayer(markers7);
+	  markersHeat.addLayer(markers8);
+	  markersHeat.addLayer(markers9);
+	  markersHeat.addLayer(markers10);
+	  markersHeat.addLayer(markers11);
+	  markersHeat.addLayer(markersundef);
+  	  map.addLayer(markersHeat);
+	  
+	  
   map.attributionControl.setPrefix(
     'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a> | Archaeological sites from <a href="https://www.mom.fr/obsidienne/siteArcheologique.php">Database on Prehistoric Near East Obsidian </a>.'
   );
