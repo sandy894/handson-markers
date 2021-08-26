@@ -48,7 +48,8 @@
 
     // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
-       var markersHeat = L.markerClusterGroup();
+    var markersHeat = L.markerClusterGroup();
+	  
     for (var i in data) {
       var row = data[i];
       if(row.Latitude  && row.Longitude )  {
@@ -58,19 +59,19 @@
 	  
 	if (row.Period == null || row.Period == '' || row.Period.length == 0)
 			
-			{markersundef.addLayer(marker); }
+			{markersundef.push(marker); }
 		 else {
-      			if (row.Period == 1) {markers1.addLayer(marker); }
-			if (row.Period == 2) {markers2.addLayer(marker); }
-			if (row.Period == 3) {markers3.addLayer(marker); }
-			if (row.Period == 4) {markers4.addLayer(marker); }
-			if (row.Period == 5) {markers5.addLayer(marker); }
-			if (row.Period == 6) {markers6.addLayer(marker); }
-			if (row.Period == 7) {markers7.addLayer(marker); }
-			if (row.Period == 8) {markers8.addLayer(marker); }
-			if (row.Period == 9) {markers9.addLayer(marker); }
-			if (row.Period == 10) {markers10.addLayer(marker); }
-			if (row.Period == 11) {markers11.addLayer(marker); }	
+      			if (row.Period == 1) {markers1.push(marker); }
+			if (row.Period == 2) {markers2.push(marker); }
+			if (row.Period == 3) {markers3.push(marker); }
+			if (row.Period == 4) {markers4.push(marker); }
+			if (row.Period == 5) {markers5.push(marker); }
+			if (row.Period == 6) {markers6.push(marker); }
+			if (row.Period == 7) {markers7.push(marker); }
+			if (row.Period == 8) {markers8.push(marker); }
+			if (row.Period == 9) {markers9.push(marker); }
+			if (row.Period == 10) {markers10.push(marker); }
+			if (row.Period == 11) {markers11.push(marker); }	
 	
 		}
     
