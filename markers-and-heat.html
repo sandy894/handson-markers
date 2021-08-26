@@ -30,6 +30,16 @@
 
   <!-- Insert Javascript (.js) code to create the map -->
   <script>
+	  
+// Set up initial map center and zoom level
+  var map = L.map('map', {
+    center: [35, 45], // EDIT latitude, longitude to re-center map
+    zoom: 5,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: true,
+    tap: true
+  });
+	  
+
     var markers1=[];
     var markers2=[];
     var markers3=[];
@@ -111,13 +121,7 @@
     };
 	
 
-    // Set up initial map center and zoom level
-  var map = L.map('map', {
-    center: [35, 45], // EDIT latitude, longitude to re-center map
-    zoom: 5,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
-    scrollWheelZoom: true,
-    tap: true
-  });
+
 
   map.addLayer(markersHeat);
 	  
