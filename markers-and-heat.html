@@ -129,11 +129,7 @@ groupundef.addTo(map);
     'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a> | Archaeological sites from <a href="https://www.mom.fr/obsidienne/siteArcheologique.php">Database on Prehistoric Near East Obsidian </a>.'
   );
 	  
-  /* Control panel to display map layers */
-  var controlLayers = L.control.layers( null, overlaymaps, {
-    position: "topright",
-    collapsed: false
-  }).addTo(map);
+
 $('<div id="mapTitle" style="text-align: center;"><span style="font-size:12pt">Select periods to display </span></div><hr>').insertBefore('.leaflet-control-layers-overlays');
   // display Carto basemap tiles with light features and labels
   var light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
