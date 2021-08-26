@@ -48,24 +48,30 @@
 
     // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
-      
+       var markersHeat = L.markerClusterGroup();
     for (var i in data) {
       var row = data[i];
       if(row.Latitude  && row.Longitude )  {
-	if (row.Period == null || row.Period == '' || row.Period.length == 0) {markersundef.push(L.marker([row.Latitude, row.Longitude], {opacity: 1}).bindPopup(row.Title + ':' + row.Area + ': undefined'));
-		} else {
-      	if (row.Period == 1) {markers1.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period)); }	
-	if (row.Period == 2) {markers2.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-        if (row.Period== 3) {markers3.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-        if (row.Period == 4) {markers4.push(L.marker([row.Latitude, row.Longitude],{opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-	if (row.Period == 5) {markers5.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			
-	if (row.Period == 6) {markers6.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}		
-	if (row.Period == 7) {markers7.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			     
-	if (row.Period == 8) {markers8.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}			     
-        if (row.Period == 9) {markers9.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}   
-        if (row.Period == 10) {markers10.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-        if (row.Period == 11) {markers11.push(L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area + ':' + row.Period));}
-		
+	      
+	var marker = L.marker([row.Latitude, row.Longitude], {{opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area));
+	markersHeat.addLayer(marker);
+	  
+	if (row.Period == null || row.Period == '' || row.Period.length == 0)
+			
+			{markersundef.addLayer(marker); }
+		 else {
+      			if (row.Period == 1) {markers1.addLayer(marker); }
+			if (row.Period == 2) {markers2.addLayer(marker); }
+			if (row.Period == 3) {markers3.addLayer(marker); }
+			if (row.Period == 4) {markers4.addLayer(marker); }
+			if (row.Period == 5) {markers5.addLayer(marker); }
+			if (row.Period == 6) {markers6.addLayer(marker); }
+			if (row.Period == 7) {markers7.addLayer(marker); }
+			if (row.Period == 8) {markers8.addLayer(marker); }
+			if (row.Period == 9) {markers9.addLayer(marker); }
+			if (row.Period == 10) {markers10.addLayer(marker); }
+			if (row.Period == 11) {markers11.addLayer(marker); }	
+	
 		}
     
 	  }
@@ -111,20 +117,8 @@
     scrollWheelZoom: true,
     tap: true
   });
-	  var markersHeat = L.markerClusterGroup();
-    	  markersHeat.addLayer(markers1); 
-	  markersHeat.addLayer(markers2);
-	  markersHeat.addLayer(markers3);
-	  markersHeat.addLayer(markers4);
-	  markersHeat.addLayer(markers5);
-	  markersHeat.addLayer(markers6);
-	  markersHeat.addLayer(markers7);
-	  markersHeat.addLayer(markers8);
-	  markersHeat.addLayer(markers9);
-	  markersHeat.addLayer(markers10);
-	  markersHeat.addLayer(markers11);
-	  markersHeat.addLayer(markersundef);
-  	  map.addLayer(markersHeat);
+
+  map.addLayer(markersHeat);
 	  
 	  
   map.attributionControl.setPrefix(
