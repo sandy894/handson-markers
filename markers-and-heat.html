@@ -53,7 +53,7 @@
       var row = data[i];
       if(row.Latitude  && row.Longitude )  {
 	      
-	var marker = L.marker([row.Latitude, row.Longitude], {{opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area));
+	var marker = L.marker([row.Latitude, row.Longitude], {opacity: 1, icon: L.icon({iconUrl: './sight-2.png', iconSize: [32, 37]})}).bindPopup(row.Title + ':' + row.Area));
 	markersHeat.addLayer(marker);
 	  
 	if (row.Period == null || row.Period == '' || row.Period.length == 0)
